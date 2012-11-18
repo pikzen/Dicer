@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/diceAddLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/background_dark">
+    
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Number of rolls"
+    android:paddingBottom="10dip" />
+    <EditText android:id="@+id/diceAddNumRolls"
+        android:inputType="number"
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Maximum dice value"
+    android:paddingBottom="10dip" />
+    <EditText android:id="@+id/diceAddMaxRoll"
+        android:inputType="number"
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white" />"
+    
+</LinearLayout>

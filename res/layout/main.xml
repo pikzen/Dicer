@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/background_light">
+    <TextView android:id="@+id/dice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="48pt"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:onClick="setRandomNumber"
+       />
+    
+    <Button android:id="@+id/rollAgain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Roll!"
+        android:textColor="@android:color/black"
+        android:background="@android:color/background_light"
+        android:onClick="setRandomNumber"/>
+    
+    
+</LinearLayout>
